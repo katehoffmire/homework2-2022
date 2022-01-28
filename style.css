@@ -1,0 +1,106 @@
+
+body{
+	font-family: Verdana, 'Times New Roman';
+	background-color: #000000;
+	color: #ffffff;
+	margin: 25px 25px 0px 25px;
+}
+h1{
+	font-size:48px;
+	padding: 15px;
+	font-weight: normal;
+	text-align: center;
+}
+h2{
+	font-size:32px;
+	font-weight: normal;
+	text-shadow: 4px 2px #808080;
+}
+p{
+	font-size: 24px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+  }
+
+img{
+	width: 350px;
+	border: 10px dashed #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }
+
+div.intro{
+	border: 3px #ffffff solid;
+	border-radius: 15px;
+	margin-top: 15px;
+	min-height: 100px;
+  }
+div.red{
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 3px #ffffff solid;
+	border-left: 10px #ffffff solid;
+	border-right: 0px #ffffff solid;
+	border-top: 0px #ffffff solid;
+	background-color: #ff0000;
+  }
+div.blue{
+	text-align: left;
+	margin-right: 50px;
+	border-bottom: 3px #ffffff solid;
+	border-right: 10px #ffffff solid;
+	border-top: 0px #ffffff solid;
+	border-left: 0px #ffffff solid;
+	background-color: #0000FF;
+  }
+div.yellow{
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 3px #ffffff solid;
+	border-left: 10px #ffffff solid;
+	border-right: 0px #ffffff solid;
+	border-top: 0px #ffffff solid;
+	background-color: #FFFF00;
+  }
+div.yellow h2, div.yellow p {
+	color: #000000
+}
+div.yellow h2{
+	text-shadow: 4px 2px #c7e2c7;
+}
+div.green{
+	text-align: left;
+	margin-right: 50px;
+	border-bottom: 3px #ffffff solid;
+	border-right: 10px #ffffff solid;
+	border-top: 0px #ffffff solid;
+	border-left: 0px #ffffff solid;
+	background-color: #008500;
+  }
+
+div{
+	border: 3px;
+	border-color: #ffffff;
+	border-style: solid;
+	min-height: 100px;
+	padding: 20px;
+}
+footer{
+	background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 75%, #000000 100%);
+	margin: 0px;
+}
+
+footer p {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right:  10px;
+}
+
+span{
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	text-shadow: none;
+}
