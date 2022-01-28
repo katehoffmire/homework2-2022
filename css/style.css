@@ -14,7 +14,7 @@ h1{
 h2{
 	font-size:32px;
 	font-weight: normal;
-	text-shadow: 4px 2px #808080;
+	text-shadow: 2px 4px #808080;
 }
 p{
 	font-size: 24px;
@@ -67,7 +67,7 @@ div.yellow h2, div.yellow p {
 	color: #000000
 }
 div.yellow h2{
-	text-shadow: 4px 2px #c7e2c7;
+	text-shadow: 2px 4px #c7e2c7;
 }
 div.green{
 	text-align: left;
@@ -94,9 +94,7 @@ footer{
 footer p {
 	font-size: 20px;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right:  10px;
+	padding: 10px 10px 10px 0px;
 }
 
 span{
